@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" sizes="32x32" href="">
+    <link rel="icon" type="image/ico" sizes="16x16" href="">
+    <link rel="shortcut icon" href="">
+    <link rel="apple-touch-icon" sizes="180x180" href="">
+    <link rel="mask-icon" href="">
+    <link rel="mask-icon" href="">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>AI TXT</title>
+</head>
+
+<body class="theme">
+
+    <div class="wrapper">
+        <header class="header" id="header">
+            <div class="_container">
+                <div class="header__block">
+                    <div class="header__content">
+                        <div class="header__burger-back theme">
+                            <div class="header__burger theme">
+                                <span></span>
+                            </div>
+                        </div>
+                        <a href="index.html" class="header__logo theme">
+                            <img src="/img/header/logo-white.svg" alt="">
+                            <img src="/img/header/logo-dark.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="header__body">
+                        <ul class="header__list theme">
+                            <li><a href="index.html" class="header__link theme">Главная страница</a></li>
+                            <li><a href="index.html#advantage" class="header__link theme">Преимущества</a></li>
+                            <li><a href="tool.html" class="header__link theme">Инструменты</a></li>
+                            <li><a href="rates.html" class="header__link theme">Тарифы</a></li>
+                        </ul>
+                        <div class="header__logins">
+                            <!--                  <div class="header__login theme">
+                        Войти
+                    </div> -->
+                            <a href="profile-2.html" class="header__register theme">
+                                <!-- Бесплатный аккаунт -->
+                                <span>5 бесплатных генераций</span>
+                                <svg width="27" height="27" viewBox="0 0 27 27" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M1 13.5C1 20.4036 6.59644 26 13.5 26C20.4036 26 26 20.4036 26 13.5C26 6.59644 20.4036 1 13.5 1C6.59644 1 1 6.59644 1 13.5ZM13.5 0C6.04416 0 0 6.04416 0 13.5C0 20.9558 6.04416 27 13.5 27C20.9558 27 27 20.9558 27 13.5C27 6.04416 20.9558 0 13.5 0Z"
+                                        fill="#333333" />
+                                    <path d="M12 9L16 13L12 17" stroke="#333333" stroke-linecap="round" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="header__theme theme">
+                            <img src="/img/header/sun.svg" alt="" class="header-sun">
+                            <img src="/img/header/moon.svg" alt="" class="header-moon">
+                        </div>
+                        <div class="header__user theme">
+                            <a href="profile.html">
+                                <img src="/img/header/user-white.svg" alt="" class="header-user__white header-user-img">
+                                <img src="/img/header/user-dark.svg" alt="" class="header-user__dark header-user-img">
+                            </a>
+                            <div class="header-user__block">
+                                <div class="header-user__body theme">
+                                    <div class="header-user__name">Антон Рубанов</div>
+                                    <a href="" class="header-user__email">antonrubanov@bk.ru</a>
+                                    <ul class="header-user__list theme">
+                                        <li><a href="profile.html" class="header-user__link theme">Мой профиль</a></li>
+                                        <li><a href="profile-2.html" class="header-user__link theme">Генератор
+                                                текста</a></li>
+                                        <li><a href="profile-3.html" class="header-user__link theme">Генератор
+                                                SEO-текста</a>
+                                        </li>
+                                        <li><a href="profile-4.html" class="header-user__link theme">Генератор
+                                                названий</a></li>
+                                        <li><a href="profile-5.html" class="header-user__link theme">Рерайт текстов</a>
+                                        </li>
+                                        <li><a href="profile-5.html" class="header-user__link theme">Перевод текстов</a>
+                                        </li>
+                                        <li><a href="profile-6.html" class="header-user__link theme">Подписка и
+                                                оплаты</a></li>
+                                    </ul>
+                                    <button class="header-user__btn">
+                                        Выйти
+                                    </button>
+                                    <div class="header-user__close">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect x="0.5" y="0.5" width="29" height="29" rx="7.5" fill="#F7F7F7"
+                                                stroke="#333333" />
+                                            <path d="M9.375 9.375L20.625 20.5119" stroke="#333333"
+                                                stroke-linecap="round" />
+                                            <path d="M9.375 20.625L20.625 9.48806" stroke="#333333"
+                                                stroke-linecap="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-burger__block header-burger theme">
+                <ul class="header-burger__list">
+                    <li><a href="" class="header-burger__link theme">Главная страница</a></li>
+                    <li><a href="" class="header-burger__link theme">Преимущества</a></li>
+                    <li><a href="" class="header-burger__link theme">Инструменты</a></li>
+                    <li><a href="" class="header-burger__link theme">Тарифы</a></li>
+                </ul>
+                <div class="header__register theme lock">
+                    Бесплатный аккаунт
+                    <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M1 13.5C1 20.4036 6.59644 26 13.5 26C20.4036 26 26 20.4036 26 13.5C26 6.59644 20.4036 1 13.5 1C6.59644 1 1 6.59644 1 13.5ZM13.5 0C6.04416 0 0 6.04416 0 13.5C0 20.9558 6.04416 27 13.5 27C20.9558 27 27 20.9558 27 13.5C27 6.04416 20.9558 0 13.5 0Z"
+                            fill="#333333" />
+                        <path d="M12 9L16 13L12 17" stroke="#333333" stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="pages">
+                <div class="_container">
+                    <div class="pages__block">
+                        <ul class="pages__list">
+                            <li><a href="/authorization.html" class="pages__link">Авторизация</a></li>
+                            <li><a href="/index.html" class="pages__link">Главная</a></li>
+                            <li><a href="/name.html" class="pages__link">Генератор названий</a></li>
+                            <li><a href="/onlineAi.html" class="pages__link">Рерайт</a></li>
+                            <li><a href="/policy.html" class="pages__link">Политика конфиденциалности</a></li>
+                            <li><a href="/profile.html" class="pages__link">Профиль-1</a></li>
+                            <li><a href="/profile-2.html" class="pages__link">Профиль-2</a></li>
+                            <li><a href="/profile-3.html" class="pages__link">Профиль-3</a></li>
+                            <li><a href="/profile-4.html" class="pages__link">Профиль-4</a></li>
+                        </ul>
+                        <ul class="pages__list">
+                            <li><a href="/profile-5.html" class="pages__link">Профиль-5</a></li>
+                            <li><a href="/profile-6.html" class="pages__link">Профиль-6</a></li>
+                            <li><a href="/profile-7.html" class="pages__link">Профиль-7</a></li>
+                            <li><a href="/profile-8.html" class="pages__link">Профиль-8</a></li>
+                            <li><a href="/rates.html" class="pages__link">Тарифы</a></li>
+                            <li><a href="/seo.html" class="pages__link">СЕО</a></li>
+                            <li><a href="/tool.html" class="pages__link">Инструменты</a></li>
+                            <li><a href="/translation.html" class="pages__link">Перевод текста</a></li>
+                            <li class="aut">Авторизация поп-ап</li>
+                            <li class="log">Почта поп-ап</li>
+                            <style>
+                                .aut {
+                                    transition: 0.5s;
+                                    cursor: pointer;
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                    color: #333333;
+                                }
+
+                                .aut:hover {
+                                    color: #00bbff;
+                                }
+
+                                .log {
+                                    transition: 0.5s;
+                                    cursor: pointer;
+                                    font-weight: 500;
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                    color: #333333;
+                                }
+
+                                .log:hover {
+                                    color: #00bbff;
+                                }
+                            </style>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <div class="popup-login">
+                <div class="popup-login__section">
+                    <div class="popup-login__block theme">
+                        <div class="popup-login-tabs">
+                            <div class="popup-login-tabs__nav">
+                                <button class="popup-login-tabs__btn popup-login-tabs__btn_active theme">Войти</button>
+                                <button class="popup-login-tabs__btn theme">Создать бесплатный аккаунт</button>
+                            </div>
+                            <div class="popup-login-tabs__content">
+                                <div class="popup-login-tabs__pane popup-login-tabs__pane_show">
+                                    <div class="popup-login__title theme">
+                                        Войти в свой кабинет aitxt
+                                    </div>
+                                    <form action="" class="popup-login__form">
+                                        <a href="" class="authorization__google theme">
+                                            <img src="/img/authorization/google.png" alt=""> Войти с помощью google
+                                        </a>
+                                        <div class="popup-login__text theme">
+                                            или
+                                        </div>
+                                        <div class="popup-login__input theme">
+                                            <input type="text" placeholder="Адрес электронной почты">
+                                        </div>
+                                        <div class="popup-login__input theme">
+                                            <input type="password" placeholder="Ваш пароль" class="password-input">
+                                            <div class="popup-login__input-svg">
+                                                <img src="/img/authorization/pass.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <a href="" class="popup-login__link">
+                                            Забыли пароль?
+                                        </a>
+                                        <div class="authorization__btn-block">
+                                            <div class="authorization__btn theme">
+                                                <button>Создать бесплатно <svg width="27" height="27"
+                                                        viewBox="0 0 27 27" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M1 13.5C1 20.4036 6.59644 26 13.5 26C20.4036 26 26 20.4036 26 13.5C26 6.59644 20.4036 1 13.5 1C6.59644 1 1 6.59644 1 13.5ZM13.5 0C6.04416 0 0 6.04416 0 13.5C0 20.9558 6.04416 27 13.5 27C20.9558 27 27 20.9558 27 13.5C27 6.04416 20.9558 0 13.5 0Z"
+                                                            fill="#333333" />
+                                                        <path d="M12 9L16 13L12 17" stroke="#333333"
+                                                            stroke-linecap="round" />
+                                                    </svg></button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="popup-login-tabs__pane">
+                                    <div class="popup-login__title theme">
+                                        Создайте бесплатный аккаунт и получите доступ к функциям
+                                    </div>
+                                    <form action="" class="popup-login__form">
+                                        <a href="" class="authorization__google theme">
+                                            <img src="/img/authorization/google.png" alt=""> Войти с помощью google
+                                        </a>
+                                        <div class="popup-login__text theme">
+                                            или
+                                        </div>
+                                        <div class="popup-login__input theme">
+                                            <input type="text" placeholder="Имя пользователя">
+                                        </div>
+                                        <div class="popup-login__input theme">
+                                            <input type="text" placeholder="Адрес электронной почты">
+                                        </div>
+                                        <div class="popup-login__input theme">
+                                            <input type="password" placeholder="Ваш пароль" class="password-input">
+                                            <div class="popup-login__input-svg"><img src="/img/authorization/pass.svg"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                        <div class="popup-login__subtext theme">
+                                            Регистрируясь, я принимаю <a href="" class="popup-login__sublink">Условия
+                                                ползования</a>
+                                        </div>
+                                        <div class="authorization__btn-block">
+                                            <div class="authorization__btn theme">
+                                                <button>Создать бесплатно <svg width="27" height="27"
+                                                        viewBox="0 0 27 27" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M1 13.5C1 20.4036 6.59644 26 13.5 26C20.4036 26 26 20.4036 26 13.5C26 6.59644 20.4036 1 13.5 1C6.59644 1 1 6.59644 1 13.5ZM13.5 0C6.04416 0 0 6.04416 0 13.5C0 20.9558 6.04416 27 13.5 27C20.9558 27 27 20.9558 27 13.5C27 6.04416 20.9558 0 13.5 0Z"
+                                                            fill="#333333" />
+                                                        <path d="M12 9L16 13L12 17" stroke="#333333"
+                                                            stroke-linecap="round" />
+                                                    </svg></button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="popup-login__close theme">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="close-white">
+                            <rect x="1" y="1" width="48" height="48" rx="24" fill="white" stroke="#00BBFF"
+                                stroke-width="2" />
+                            <path d="M17.1019 17.8984L24.5265 25.3231L31.9512 32.7477" stroke="#333333" stroke-width="2"
+                                stroke-linecap="round" />
+                            <path d="M17.4247 32.4248L24.8493 25.0002L32.2739 17.5756" stroke="#333333" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="close-black">
+                            <rect x="1" y="1" width="48" height="48" rx="24" fill="#333333" stroke="white"
+                                stroke-width="2" />
+                            <path d="M17.1019 17.8982L24.5265 25.3228L31.9512 32.7474" stroke="white" stroke-width="2"
+                                stroke-linecap="round" />
+                            <path d="M17.4247 32.4248L24.8493 25.0002L32.2739 17.5756" stroke="white" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+
+                    </div>
+                </div>
+            </div>
+            <div class="popup-email">
+                <div class="popup-email__section">
+                    <form class="popup-email__form theme">
+                        <div class="popup-email__title theme">
+                            Изменение адреса электронной почты
+                        </div>
+                        <div class="popup-email__text theme">
+                            Ниже укажите новый адрес электронной почты.
+                            На него придет проверочный код
+                        </div>
+                        <div class="popup-email__input theme">
+                            <input type="email" placeholder="Введите новый дрес электронной почты">
+                        </div>
+                        <div class="popup-email__btn theme">
+                            <button>Отправить</button>
+                        </div>
+                        <div class="popup-email__subtitle theme">
+                            Введите проверочный код из письма
+                        </div>
+                        <div class="popup-email__subinput theme">
+                            <input type="text" placeholder="Проверочный код">
+                        </div>
+                    </form>
+                    <div class="popup-email__close theme">
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="close-white">
+                            <rect x="1" y="1" width="48" height="48" rx="24" fill="white" stroke="#00BBFF"
+                                stroke-width="2" />
+                            <path d="M17.1019 17.8984L24.5265 25.3231L31.9512 32.7477" stroke="#333333" stroke-width="2"
+                                stroke-linecap="round" />
+                            <path d="M17.4247 32.4248L24.8493 25.0002L32.2739 17.5756" stroke="#333333" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="close-black">
+                            <rect x="1" y="1" width="48" height="48" rx="24" fill="#333333" stroke="white"
+                                stroke-width="2" />
+                            <path d="M17.1019 17.8982L24.5265 25.3228L31.9512 32.7474" stroke="white" stroke-width="2"
+                                stroke-linecap="round" />
+                            <path d="M17.4247 32.4248L24.8493 25.0002L32.2739 17.5756" stroke="white" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer theme">
+            <div class="_container">
+                <div class="footer__block">
+                    <div class="footer__logo theme">
+                        <img src="/img/header/logo-white.svg" alt="">
+                        <img src="/img/header/logo-dark.svg" alt="">
+                    </div>
+                    <ul class="footer__list theme">
+                        <li><a href="index.html#advantage" class="footer__link">Преимущества</a></li>
+                        <li><a href="tool.html" class="footer__link">Инструменты</a></li>
+                        <li><a href="rates.html" class="footer__link">Тарифы</a></li>
+                        <li><a href="policy.html" class="footer__link">Политика конфиденциалности</a></li>
+                        <li><a href="policy.html" class="footer__link">Договор аферты</a></li>
+                    </ul>
+                    <div class="header__register-block">
+                        <div class="header__register theme">
+                            <span>Бесплатный аккаунт</span>
+                            <svg width="27" height="27" viewBox="0 0 27 27" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M1 13.5C1 20.4036 6.59644 26 13.5 26C20.4036 26 26 20.4036 26 13.5C26 6.59644 20.4036 1 13.5 1C6.59644 1 1 6.59644 1 13.5ZM13.5 0C6.04416 0 0 6.04416 0 13.5C0 20.9558 6.04416 27 13.5 27C20.9558 27 27 20.9558 27 13.5C27 6.04416 20.9558 0 13.5 0Z"
+                                    fill="#333333" />
+                                <path d="M12 9L16 13L12 17" stroke="#333333" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        /* Табы нужны для переключения "авторизоваться или заригестрироваться" */
+        /* Для 1 поп-апа popul-login НАЧАЛО*/
+        class ItcTabs {
+            constructor(target, config) {
+                const defaultConfig = {};
+                this._config = Object.assign(defaultConfig, config);
+                this._elTabs = typeof target === 'string' ? document.querySelector(target) : target;
+                this._elButtons = this._elTabs.querySelectorAll('.popup-login-tabs__btn');
+                this._elPanes = this._elTabs.querySelectorAll('.popup-login-tabs__pane');
+                this._eventShow = new Event('tab.itc.change');
+                this._init();
+                this._events();
+            }
+            _init() {
+                this._elTabs.setAttribute('role', 'tablist');
+                this._elButtons.forEach((el, index) => {
+                    el.dataset.index = index;
+                    el.setAttribute('role', 'tab');
+                    this._elPanes[index].setAttribute('role', 'tabpanel');
+                });
+            }
+            show(elLinkTarget) {
+                const elPaneTarget = this._elPanes[elLinkTarget.dataset.index];
+                const elLinkActive = this._elTabs.querySelector('.popup-login-tabs__btn_active');
+                const elPaneShow = this._elTabs.querySelector('.popup-login-tabs__pane_show');
+                if (elLinkTarget === elLinkActive) {
+                    return;
+                }
+                elLinkActive ? elLinkActive.classList.remove('popup-login-tabs__btn_active') : null;
+                elPaneShow ? elPaneShow.classList.remove('popup-login-tabs__pane_show') : null;
+                elLinkTarget.classList.add('popup-login-tabs__btn_active');
+                elPaneTarget.classList.add('popup-login-tabs__pane_show');
+                this._elTabs.dispatchEvent(this._eventShow);
+                elLinkTarget.focus();
+            }
+            showByIndex(index) {
+                const elLinkTarget = this._elButtons[index];
+                elLinkTarget ? this.show(elLinkTarget) : null;
+            };
+            _events() {
+                this._elTabs.addEventListener('click', (e) => {
+                    const target = e.target.closest('.popup-login-tabs__btn');
+                    if (target) {
+                        e.preventDefault();
+                        this.show(target);
+                    }
+                });
+            }
+        }
+
+        // инициализация .popup-login-tabs как табов
+        new ItcTabs('.popup-login-tabs');
+        /* Для 1 поп-апа popul-login КОНЕЦ*/
+        /* Для первого поп-апа, скрытие/откртыия пороля НАЧАЛО */
+        function passwordsInputsPopupLogin() {
+            const inputsPassword = document.querySelectorAll('.password-input');
+            const eyePasswordInput = document.querySelectorAll('.popup-login__input-svg');
+            for (let i = 0; i < eyePasswordInput.length; i++) {
+                eyePasswordInput[i].addEventListener('click', () => {
+                    eyePasswordInput[i].classList.toggle('active');
+                    if (inputsPassword[i].type == 'text') {
+                        inputsPassword[i].setAttribute("type", "password");
+                    } else {
+                        inputsPassword[i].setAttribute("type", "text");
+                    };
+                });
+            };
+        };
+        passwordsInputsPopupLogin();
+        /* Для первого поп-апа, скрытие/откртыия пороля КОНЕЦ */
+        /* Тут все понятно думаю */
+        /* Открытия поп-апа логин */
+        function openLoginPopup() {
+            document.querySelector('.popup-login').classList.add('active');
+            document.querySelector('body').classList.add('lock');
+        }
+        /* Закрытия поп-апа логин */
+        function closeLoginPopup() {
+            document.querySelector('.popup-login').classList.remove('active');
+            document.querySelector('body').classList.remove('lock');
+        }
+        /* Вызов функций для работы поп-апа лоигна */
+        document.querySelector('.popup-login__close').addEventListener('click', () => { closeLoginPopup() })
+        document.querySelector('.aut').addEventListener('click', () => { openLoginPopup() })
+
+        /* ПО АНАЛОГИИ*/
+        function openEmailPopup() {
+            document.querySelector('.popup-email').classList.add('active');
+            document.querySelector('body').classList.add('lock');
+        }
+        function closeEmailPopup() {
+            document.querySelector('.popup-email').classList.remove('active');
+            document.querySelector('body').classList.remove('lock');
+        }
+        document.querySelector('.popup-email__close').addEventListener('click', () => { closeEmailPopup() })
+        document.querySelector('.log').addEventListener('click', () => { openEmailPopup() })   
+    </script>
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>
